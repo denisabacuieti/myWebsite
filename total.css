@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient( to bottom, #c1b59f,#e3ded1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+#nav-left{
+    margin: 0%;
+    font-family: "Cedarville Cursive", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.button a{
+    font-size:larger;
+    font-weight: lighter;
+}
+
+.navbar ul{
+    display:inline;
+    justify-content: space-between;
+    align-items:center;
+    max-width:  1200px;;
+    height:min-content;
+    margin: 0;
+    border-color: aliceblue;
+    border-style: hidden;
+    overflow: hidden;
+    margin-top: 0;
+
+
+}
+
+.nav-left, .nav-center, .nav-right {
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    color: black;
+
+    
+}
+
+
+.nav-left li, .nav-center li, .nav-right li {
+    margin: 0;
+    float: left;
+    font-family: "Source Code Pro" ;
+    
+}
+
+.nav-left li a,  .nav-center li a, .nav-right li a {
+    display: flex;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+    background-color:none;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+

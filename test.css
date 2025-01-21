@@ -1,0 +1,61 @@
+
+
+
+.bigsections{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.section{
+    overflow: hidden;
+    align-items: center;  
+    border-bottom: 0.1px solid;
+    margin-top: 60px;    
+    width: fit-content;
+    margin-left: 25px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section ul li{
+    float: left;
+    
+    list-style: none;
+    justify-items: center;
+    font-family: "Rajdhani";
+    margin: 25px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+    
+    
+}
+
+.section ul li a{
+    text-decoration: none;
+    color: black;
+    justify-content:center ;
+    font-size: 30px;
+    
+}
+
+.section a:hover{
+    font-weight: lighter;
+    
+}
+#idd{
+    font-family: Cedarville Cursive;
+    margin-top: 100px;
+   
+    float: left;
+    font-size: 50px;
+    text-decoration: none;
+    list-style-type: none;
+}
